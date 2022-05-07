@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>YaGraph</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script type="text/javascript" src="../static/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../static/js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li class="one">
+                <h1 class='logotextheader'>YaGraph</h1>
+        </li>
+        <li class="two">
+                <ul>
+                        <li>
+                                <div class="content"><div class="alg-btns">
+                                  <input type="image" class="alg" src="../static/images/bfs.png" id="bfs" alt="BFS">
+                                  <input type="image" class="alg" src="../static/images/dj.png" id="dj" alt="DJ">
+                                  <input type="image" class="alg" src="../static/images/euler.png" id="eul" alt="Euler">
+                                  <input type="image" class="alg" src="../static/images/istree.png" id="tree" alt="Tree">
+                                    <input type="image" class="alg" src="../static/images/mintree.png" id="min-tree" alt="Min Tree">
+                                </div></div>
+                        </li>
+                        <li>
+                                <div class="content"><div class="points">
+                                  <p>Graph points: </p>
+                                  <input type="number" id="all-points" max="40">
+                                </div></div>
+                        </li>
+                        <li>
+                                <div class="content"><h2 class="open-popup" id="usernamemain">{{ name }}</h2></div>
+                        </li>
+                </ul>
+        </li>
+</ul>
+    </header>
+    <div class="div-table">
+      <table class="table">
+      </table>
+    </div>
+    <div class="popup-bg">
+  <div class="popup">
+    <div class="menu-form">
+      <button id="save">SAVE GRAPH</button>
+      <button id="load">LOAD GRAPH</button>
+      <input type="submit" name="" onclick="window.location.href='http://127.0.0.1:5000/logout'" value="LOG OUT">
+    </div>
+  </div>
+</div>
+
+  <div class="popup-out-bg">
+  <div class="popup-out">
+    <div class="menu-form-out">
+        <textarea name="comment" readonly>
+        </textarea>
+    </div>
+  </div>
+</div>
+  </body>
+</html>

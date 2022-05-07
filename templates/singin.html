@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>YaGraph</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+  </head>
+  <body>
+    <a class="logotext" href="http://127.0.0.1:5000/">YaGraph</a>
+    <form class="box" action="" method="post">
+      <h2>SING IN</h2>
+      {{ form.hidden_tag() }}
+      {{ form.username(type="text", placeholder="Username") }}
+      {{ form.password(type="password", placeholder="Password") }}
+      {{ form.submit(type="submit", value="SING IN") }}
+    </form>
+  </body>
+</html>
