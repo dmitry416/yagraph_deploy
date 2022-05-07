@@ -1,0 +1,371 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #1A1A1D;
+  display: block;
+}
+
+.box {
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.logotext {
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 80px;
+}
+
+.logotextmenu {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 250px;
+  font-size: 80px;
+}
+
+.box h2 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.btn-group {
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.btn-group button, .menu-form button {
+  cursor: pointer;
+  border: 0;
+  background: none;
+  display: inline-block;
+  margin: 40px auto;
+  text-align: center;
+  border: 2px solid #C3073F;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  margin: 20px
+}
+
+.btn-group button:hover, .menu-form button:hover {
+  background: #C3073F;
+}
+
+.box input[type = "text"], .box input[type = "password"], .box input[type = "email"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 40px auto;
+  text-align: center;
+  border: 2px solid #C3073F;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.box input[type = "text"]:focus, .box input[type = 'password']:focus, .box input[type = "email"]:focus {
+  width: 280px;
+  border-color: #C3073F;
+}
+
+.menu-form button {
+  display: block;
+  margin: 20px auto;
+}
+
+.box input[type = submit], .menu-form input[type = submit] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #C3073F;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type = submit]:hover, .menu-form input[type = submit]:hover {
+  background: #C3073F;
+}
+/*
+.points {
+  padding: 40px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+*/
+
+
+.points p {
+  cursor: pointer;
+  border: 0;
+  background: none;
+  display: inline-block;
+  text-align: center;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+.points input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.table input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.points input {
+  width: 40px;
+  height: 40px;
+  outline: none;
+  border: none;
+  background: none;
+
+  text-align: center;
+  border: 2px solid #C3073F;
+  padding: 2px 2px;
+  color: white;
+  border-radius: 12px;
+}
+
+table.table {
+  border: none;
+  text-decoration: none;
+  border-collapse: collapse;
+  width: 80%;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 10%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+table.table td{
+  font-size:13px;
+
+  color:#000000;
+  vertical-align: middle;
+}
+
+.table input {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0%;
+  width: 90%;
+  height: 90%;
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  border: 2px solid #C3073F;
+  border-radius: 24px;
+}
+
+.table-index {
+  text-align: center;
+  color: white;
+  margin: 15px;
+}
+
+.alg {
+    width: 40px;
+    height: 40px;
+    outline: none;
+    background: none;
+
+    border: 2px solid #C3073F;
+    padding: 5px 5px;
+    margin: 5px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 12px;
+}
+
+.alg-btns {
+
+}
+
+.points {
+  margin: 0;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  padding: 20px;
+  padding-left: 30px;
+  display: inline-block;
+
+}
+
+#usernamemain {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  margin: 0;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.logotextheader {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  margin: 0;
+  font-size: 80px;
+}
+
+ul {
+  overflow: hidden;
+}
+ul li {
+  list-style-type: none;
+}
+ul li.one {
+  float: left;
+}
+ul li.two {
+  overflow : hidden;
+  float : none;
+}
+ul li.two li {
+  width: 30%;
+  text-align: right;
+  float: left;
+}
+ul li .content {
+  height: 30px;
+  display: inline-block;
+  text-align: left;
+}
+
+::-webkit-scrollbar {
+  background: 0;
+  width: 7px;
+  padding: 10px;
+}
+
+::-webkit-scrollbar-button {
+  width: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 100px;
+  width: 2px;
+  padding: 10px;
+}
+html {
+overflow: scroll;
+overflow-x: hidden;
+ }
+
+
+
+.popup-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}
+
+.popup {
+    position: absolute;
+    background: #1A1A1D;
+    width: 350px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    padding-top: 60px;
+}
+
+.popup form {
+    display: flex;
+    flex-direction: column;
+}
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.no-scroll {
+    overflow-y: hidden;
+}
+
+
+.popup-out-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}
+
+.popup-out {
+    position: absolute;
+    background: #1A1A1D;
+    width: 350px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    padding-top: 60px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    resize: none;
+    background: none;
+    color: white;
+    text-align: center;
+    border: none;
+    outline: none;
+}
